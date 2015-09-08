@@ -1,17 +1,28 @@
 [
 {
-  "modid": "debo",
-  "name": "Dense EB Ores",
-  "description": "This mod doesn't actually do anything on its own - it just provides Enhanced Biomes ore textures that can be referenced in the Dense Ores config file to allow for dense EB ores. To see an example config file, go to the Dense Ores project on GitHub (https://github.com/rwtema/DenseOres)",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "http://www.hokecraft.co.uk/",
-  "updateUrl": "",
-  "authorList": ["WhichOnesPink"],
-  "credits": "Thanks to SMEZ1234 for creating the Enhanced Biomes mod and RWTema for creating the Dense Ores mod.",
-  "logoFile": "",
-  "screenshots": [],
-  "parent":"",
-  "dependencies": []
+    "modid": "debo",
+    "name": "Dense EB Ores",
+    "description": "This mod doesn't actually do anything on its own - it just provides Enhanced Biomes ore textures that can be referenced in the Dense Ores config file to allow for dense EB ores. To see an example config file, go to the Dense Ores project on GitHub (https://github.com/rwtema/DenseOres)",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/whichonespink44/DenseEBOres",
+    "updateUrl": "",
+    "authorList": [ "WhichOnesPink" ],
+    "credits": "Thanks to SMEZ1234 for creating the Enhanced Biomes mod and RWTema for creating the Dense Ores mod.",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": [ "Forge", "enhancedbiomes", "denseores" ],
+    "dependencies": [ "enhancedbiomes" ],
+    "dependants": [ "denseores" ],
+    "useDependencyInformation": true
 }
 ]
+
+
+
+
+
+
+
+
